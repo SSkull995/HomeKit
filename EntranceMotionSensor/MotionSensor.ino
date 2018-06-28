@@ -4,17 +4,17 @@
     PIR motion sensor for HomeKit
     First Created: 14.08.2017
     Last  Updated: 15.08.2017
-    Created by: Amruth Pabba aka QuickPi
+    Created by: 
 */
-char* ssid = "Wi-Fi Example"; //Wi-Fi AP Name
-char* password = "Sample"; //Wi-Fi Password
+char* ssid = "Home WiFi"; //Wi-Fi AP Name
+char* password = "benito97"; //Wi-Fi Password
 char* mqtt_server = "1.1.1.1"; //MQTT Server IP
-char* mqtt_name = "Secondary Bedroom Motion Sensor"; //MQTT device name
-char* mqtt_topic = "SecondaryBedroomMotionSensor"; //MQTT topic for communication
+char* mqtt_name = "Entrance Motion Sensor"; //MQTT device name
+char* mqtt_topic = "EntranceMotionSensor"; //MQTT topic for communication
 char* mqtt_ending = "/data"; //MQTT subsection for communication
 int pirPin = D0;  //set the GPIO which you will connect the PIR sensor
-bool lowPower = false; //set to true if you want low power use, slower alerts but more battery
-int delayTime = 2000; //ONLY FOR LOW POWER - how long motion detected should be active
+bool lowPower = true; //set to true if you want low power use, slower alerts but more battery
+int delayTime = 5000; //ONLY FOR LOW POWER - how long motion detected should be active
 
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
