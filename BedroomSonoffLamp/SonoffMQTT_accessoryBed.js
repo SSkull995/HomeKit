@@ -8,9 +8,9 @@ var mqttMSG = false;
 
 
 var name = "Sonoff Bed"; //accessory name
-var sonoffUUID = "hap-nodejs:accessories:sonoffbed"; //change this to your preferences
+var sonoffUUID = "hap-nodejs:accessories:sonoffstand"; //change this to your preferences
 var sonoffUsername = "1A:2B:3C:4D:5E:FF";
-var MQTT_NAME = 'sonoffBed' //MQTT topic that was set on the Sonoff firmware, originally sonoff
+var MQTT_NAME = 'sonoffbed' //MQTT topic that was set on the Sonoff firmware, originally sonoff
 
 
 var options = {
