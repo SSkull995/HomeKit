@@ -7,10 +7,10 @@ var MQTT_IP = 'localhost' //change this if your MQTT broker is different
 var mqttMSG = false;
 
 
-var name = "Sonoff Bed"; //accessory name
+var name = "Sonoff Bedroom"; //accessory name
 var sonoffUUID = "hap-nodejs:accessories:sonoffstand"; //change this to your preferences
-var sonoffUsername = "1A:2B:3C:4D:5E:FF";
-var MQTT_NAME = 'sonoffbed' //MQTT topic that was set on the Sonoff firmware, originally sonoff
+var sonoffUsername = "1A:2B:3C:4DE:FF";
+var MQTT_NAME = 'sonoffBedroom' //MQTT topic that was set on the Sonoff firmware, originally sonoff
 
 
 var options = {
