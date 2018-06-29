@@ -30,6 +30,6 @@ fi
 cd /home/pi/HAP-NodeJS
 sudo npm install mqtt --save
 cd accessories/
-sudo wget https://goo.gl/xRAhwp -O MQTTMotionSensor_accessory.js
+sudo wget https://goo.gl/xRAhwp -O EntrataMotionSensor_accessory.js
 clear
 echo "Process Complete!"
